@@ -1,0 +1,27 @@
+{
+  "name": "opencode-centered-layout",
+  "version": "1.0.0",
+  "description": "Centers the OpenCode TUI session pane on wide terminals. Toggle with /center.",
+  "type": "module",
+  "license": "MIT",
+  "author": "tpham4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph280996/opencode-centered-layout.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "layout"
+  ],
+  "exports": {
+    "./tui": "./src/tui.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
